@@ -62,6 +62,7 @@ public class MainActivity extends AppCompatActivity {
                 progressDialog.dismiss();
 
 
+            // instantiating the list adapter
             ListAdapter listAdapter = new ListAdapter(MainActivity.this,mUserList);
             mListView.setAdapter(listAdapter);
 
